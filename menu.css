@@ -1,0 +1,87 @@
+/* Reseteo básico que se aprende al iniciar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #ece6d8;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Contenedor principal centrado */
+.contenedor {
+    flex: 1;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+.subtitulo {
+    font-size: 12px;
+    color: #1b92c5;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+h1 {
+    font-size: 26px;
+    margin-top: 5px;
+}
+
+/* Uso básico de Grid explicado en clase */
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+/* Estilo de cada tarjeta/opción */
+.card {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #ece6d8;
+    border: 1px solid #777;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #000;
+    transition: background 0.2s;
+}
+
+.card:hover {
+    background-color: #dfdad0;
+}
+
+/* Cuadrito con el número */
+.numero {
+    width: 25px;
+    height: 25px;
+    background-color: #f4f1ea;
+    border: 1px solid #555;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Footer inferior sencillo */
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #e2ddd1;
+    border-top: 1px solid #ccc;
+    font-size: 12px;
+}

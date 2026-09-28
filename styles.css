@@ -1,0 +1,140 @@
+/* Documento para la configuracion de todos los elementors predeterminados*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+body{
+    background-color: #ece6d8;
+}
+.pantalla {
+    display: flex;      /* pone los dos hijos en fila, uno al lado del otro */
+    min-height: 100vh;  /* que ocupe todo el alto de la ventana */
+}
+
+.panel-oscuro {
+    width: 43%;                 /* como en el mockup, un poco menos de la mitad */
+    background-color: #0d1b3e;  /* el azul oscuro */
+    display: flex;
+    flex-direction: column;     /* logo y texto apilados verticalmente */
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-claro {
+    width: 57vw;
+    background-color: #ece6d8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+}
+
+.logo{
+    width: 10vw;
+    height: 12vw;
+    background-color: #0d1b3e;
+    margin-right: 0;
+}
+.h1{
+    color: #000000;
+    font-size: 11px;
+    margin-right: 2vw;
+    text-align: left;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    font-weight: bold;
+    
+}
+.etiqueta{
+    color: #070707;
+    margin-right: 2vw;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+h2{
+    color: #000000;
+    margin-right: 2vw;
+    letter-spacing: 1.5px;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+i{
+    background-color: #fff;
+    font-size: 1.7rem; 
+    margin-right: 2vw;
+}
+section 
+{
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.calco{
+    font-size: 8rem;
+    color: #000000;
+    margin-right: 2vw;
+}
+.form-login 
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputs
+{
+    width: 25vw;
+    padding: 1vw;
+    margin: 1vw;
+    border: 1px solid #000000;
+    background-color: #ece6d8;
+    font-style: italic;
+}
+.btn {
+    width: 15vw;
+    padding: 1vw;
+    margin: 1vw;
+    background-color: #ddb01ecb;
+    color: #ece6d8;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 0.2vw;
+}
+.btn:hover {
+    background-color: #0f3f21;
+    cursor: pointer;
+}
+.redireccion{
+    color: #1b92c5;
+    margin: 1vw;
+    text-decoration: none;
+    margin: 1vw;
+}
+
+.footer-link{
+    color: #030303e7;
+    margin-right: 4vw;
+}
+.creditos{
+    color: #000000;
+    margin-left: 4vw;
+}
+footer
+{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ece6d8;
+    color: rgba(0, 0, 0.5);
+    display: flex;
+    gap: 0;
+}
